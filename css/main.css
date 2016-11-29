@@ -1,0 +1,244 @@
+/*Generales*/
+
+hr{
+	width: 20%;
+}
+.br-green{
+	border: 2px solid #1FDA9A;
+}
+/*Background*/
+.verde{
+	background-color: #84e184;
+	background-size: cover;
+}
+.imguno{
+	background-image: url(../img/carousel-bg.jpg);
+}
+.img-cover{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+}
+.bg-about{
+	background-color: rgb(0, 51, 102);
+	opacity: 0.7;
+}
+.bg-facts{
+	background-image: url(../img/img-divider-img.jpg);
+}
+.pnt{
+	background-size: 100%;
+	height: 200px;
+}
+.bg-white{
+	background-color: rgb(255, 255, 255);
+}
+#aqua{
+	background-color: rgb(105, 210, 231);
+}
+#sky{
+	background-color: rgb(167, 219, 219);
+}
+#gray{
+	background-color: rgb(224, 228, 204);
+}
+.norage{
+	background-color: rgb(243, 134, 48);
+}
+#orange{
+	background-color: rgb(250, 105, 0);
+}
+#pink{
+	background-color: rgb(233, 76, 111);
+}
+#wine{
+	background-color: rgb(84, 39, 51);
+}
+#togray{
+	background-color: rgb(90, 106, 98);
+}
+#lessgray{
+	background-color: rgb(198, 213, 205);
+}
+#yellow{
+	background-color: rgb(253, 242, 0);
+}
+#red{
+	background-color: rgb(219, 51, 64);
+}
+#mostaza{
+	background-color: rgb(232, 183, 26);
+}
+#blonde{
+	background-color: rgb(247, 234, 200);
+}
+.turquesa{
+	background-color: rgb(31, 218, 154);
+}
+#blueking{
+	background-color: rgb(40, 171, 227);
+}
+.greene{
+	background-color: rgb(88, 140, 115);
+}
+.beige{
+	background-color: rgb(242, 227, 148);
+}
+#skin{
+	background-color: rgb(242, 174, 114);
+}
+#pinkpalid{
+	background-color: rgb(217, 100, 89);
+}
+#wineny{
+	background-color: rgb(140, 70, 70);
+}
+#greenyelly{
+	background-color: rgb(208, 201, 31);
+}
+#bluesoft{
+	background-color: rgb(133, 196, 185);
+}
+#bluequeen{
+	background-color: rgb(0, 91, 186);
+}
+#pinkred{
+	background-color: rgb(223, 81, 76);
+}
+#redd{
+	background-color: rgb(205, 64, 59);
+}
+.htm{
+	width: 85%;
+}
+.cs{
+	width: 80%;
+}
+.js{
+	width: 60%;
+}
+.ph{
+	width: 70%;
+}
+.pl{
+	width: 77%;
+}
+.bg-img-half{
+	background-image: url(../img/icon-bg.png);
+	background-position: 50%;
+	height: 100%;
+}
+
+/*Margin*/
+.mg-10{
+	margin: 10%;
+}
+.mg-5{
+	margin: 5%;
+}
+.mg-l{
+	margin-left: 15%;
+}
+.mg-r{
+	margin-right: 5%;
+}
+.mg-t{
+	margin-top: 7%;
+}
+
+/*Padding*/
+.pd-10{
+	padding: 10%;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-l{
+	padding-left: 5%;
+}
+.pd-r{
+	padding-right: 5%;
+}
+.pd-t{
+	padding-top: 2%;
+}
+.pd-1{
+	padding: 1%;
+}
+
+/*Colores*/
+.text-white{
+	color: white;
+}
+.text-orange{
+	color: orange;
+}
+
+/*MediaQueries*/
+@media (max-width: 768px) {
+	i{
+		visibility: hidden;
+	}
+	h1 h3 p{
+		font-size: auto;
+	}
+	input{
+		width: 50%;
+	}
+	.pnt{
+		background-size: 100%;
+		height: 150px;
+}
+@media (max-width: 635px) {
+	input{
+		visibility: hidden;
+	}
+	.input-group{
+		visibility: hidden;
+	}
+	.btn{
+		width: 50%;
+	}
+	p{
+		font-size: 10px;
+	}
+	h1{
+		font-size: 25px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	.img-cover{
+		background-size: cover;
+		background-position: center;
+		height: 350px;
+	}
+	.pnt{
+		background-size: 100%;
+		height: 100px;
+	}
+
+}
+@media (max-width: 498px) {
+	p{
+		font-size: 5px;
+	}
+	.img-cover{
+		background-size: cover;
+		background-position: center;
+		height: 190px;
+	}
+	h1{
+		font-size: 10px;
+	}
+	h3{
+		font-size: 7px;
+	}
+	.pnt{
+		background-size: 100%;
+		height: 50px;
+	}
+	.hidden-xs{
+		visibility: hidden;
+	}
+}
